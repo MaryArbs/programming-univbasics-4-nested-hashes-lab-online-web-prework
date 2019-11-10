@@ -57,6 +57,10 @@ def dennis_ritchies_language
         }
      }
 programmer_hash[:dennis_ritchie][:languages]="C"
+<<<<<<< HEAD
+=======
+programmer_hash
+>>>>>>> ebdd133094187ee4fe85c55b871783c9a632306d
 end
 
 
@@ -66,7 +70,12 @@ def adding_matz
 #   :known_for => "Ruby",
 #    :languages => ["LISP", "C"]
 # }
+<<<<<<< HEAD
 programmer_hash =
+=======
+
+	programmer_hash =
+>>>>>>> ebdd133094187ee4fe85c55b871783c9a632306d
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -91,6 +100,10 @@ programmer_hash =
    programmer_hash_two
    programmer_hash_two.merge(programmer_hash)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ebdd133094187ee4fe85c55b871783c9a632306d
 end
 
 def changing_alan
@@ -109,10 +122,17 @@ def changing_alan
           :languages => ["C"]
         }
      }
+<<<<<<< HEAD
      programmer_hash[:alan_kay][:known_for]="GUI"
     programmer_hash
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
     #  alans_new_info = "GUI"
+=======
+     #change what Alan Kay is :known_for to the value of the alans_new_info variable.
+     alans_new_info = "GUI"
+
+
+>>>>>>> ebdd133094187ee4fe85c55b871783c9a632306d
 end
 
 def adding_to_dennis
